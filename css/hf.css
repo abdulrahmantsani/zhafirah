@@ -57,7 +57,7 @@
 }
 
 .footer-col ul li::before{
-  content:"▪︎";
+  content:"";
   width:6px;
   height:6px;
   background:#12ecc1;
