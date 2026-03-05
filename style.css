@@ -145,3 +145,95 @@ gap:30px;
 }
 
 }
+/* ================================
+HEADER
+================================ */
+
+.site-header{
+background:#ffffff;
+border-bottom:1px solid #e5e7eb;
+position:sticky;
+top:0;
+z-index:999;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* HEADER LAYOUT */
+
+.header-inner{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:14px 0;
+}
+
+/* LOGO */
+
+.logo img{
+height:45px;
+width:auto;
+display:block;
+}
+
+/* MENU */
+
+.main-menu ul{
+display:flex;
+gap:28px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+/* MENU LINK */
+
+.main-menu a{
+text-decoration:none;
+font-family:'Segoe UI', Arial, sans-serif;
+font-size:16px;
+color:#000;
+font-weight:500;
+transition:0.2s;
+}
+
+/* HOVER */
+
+.main-menu a:hover{
+color:#104079;
+}
+
+/* ACTIVE */
+
+.main-menu a.active{
+color:#104079;
+font-weight:600;
+}
+/* ================================
+RESPONSIVE
+================================ */
+
+@media (max-width:768px){
+
+.header-inner{
+flex-direction:column;
+gap:15px;
+}
+
+.main-menu ul{
+gap:18px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.logo img{
+height:40px;
+}
+
+}
