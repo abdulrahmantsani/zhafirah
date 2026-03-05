@@ -137,8 +137,16 @@
 
 /* active menu underline */
 
-.main-nav .active a{
-  border-bottom:3px solid #12ecc1;
+.main-nav a{
+  text-decoration:none;
+  color:#333;
+  padding-bottom:6px;
+  border-bottom:3px solid transparent;
+  transition:0.3s;
+}
+
+.main-nav a:hover{
+  border-bottom:3px solid #104079;
 }
 
 /* button konsultasi */
