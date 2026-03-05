@@ -1,0 +1,148 @@
+<section class="kontak">
+    <div class="kontak-container">
+        
+        <div class="kontak-header">
+            <h2>Hubungi kami</h2>
+            <p>
+                Tim Zhafirah siap membantu Anda mendapatkan informasi seputar umroh & haji dengan aman dan nyaman.
+            </p>
+        </div>
+        
+        <div class="kontak-grid">
+            
+            <div class="kontak-info navy">
+                
+                <div class="kontak-item">
+                    <span class="label">Whatsapp</span>
+                    <a href="https://wa.me/6281230957553" target="_blank">+62 812 3095 7553</a>
+                </div>
+                
+                <div class="kontak-item">
+                    <span class="label">E-mail</span>
+                    <a>surabaya@zhafirah.co.id</a>
+                </div>
+                
+                <div class="kontak-item">
+                    <span class="label">Kantor Surabaya</span>
+                    <p>
+                        Jl. Darmokali No.34, Darmo,<br>
+                        Kec. Wonokromo, Surabaya,<br>
+                        Jawa Timur 60241
+                    </p>
+                </div>
+                
+                <a href="https://wa.me/6281230957553" class="kontak-btn">Konsultasi Via Whatsapp</a>
+            </div>
+            
+            <div class="kontak-map">
+                <iframe src="https://www.google.com/maps?q=Jl.%20Darmokali%20No.34,%20Surabaya&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .kontak{
+        padding:80px 0;
+        background:#f5f7fa;
+        font-family:'Segoe UI',Arial,Sans-Serif;
+    }
+    .kontak-container{
+        width:90%;
+        max-width:1100px;
+        margin:auto;
+    }
+    .kontak-header{
+        text-align:center;
+        max-width:720px;
+        margin:0 auto 60px;
+    }
+    .kontak-header h2{
+        font-size:24px;
+        line-height:32px;
+        color:#000;
+        margin-bottom:15px;
+    }
+    .kontak-header p{
+        color:#374151;
+        font-size:16px;
+        line-height:27px;
+    }
+    .kontak-grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:50px;
+        align-items:stretch;
+    }
+    .kontak-info.navy{
+        background:linear-gradient(135deg,#104079,#163d5f);
+        padding:40px;
+        border-radius:20px;
+        color:#fff;
+        box-shadow:0 20px 40px rgba(15,42,68,0.35);
+    }
+    .kontak-info.navy .label{
+        font-size:16px;
+        font-weight:600;
+        color:#fff;
+        display:block;
+        margin-bottom:6px;
+    }
+    .kontak-info.navy a{
+        color:#fff;
+        font-size:16px;
+        line-height:27px;
+    }
+    .kontak-info.navy p{
+        color:#fff;
+        font-size:16px;
+        line-height:27px;
+    }
+    .kontak-item{
+        margin-bottom:28px;
+    }
+    .kontak-info.navy .kontak-btn{
+        display:inline-block;
+        margin-top:30px;
+        background:#d4af37;
+        color:#fff;
+        padding:14px 26px;
+        border-radius:12px;
+        text-decoration:none;
+        font-weight:600;
+        transition:0.3s ease;
+    }
+    .kontak-info.navy .kontak-btn:hover{
+        background:#fff;
+        color:#104079;
+        transform:translateY(-2px);
+        box-shadow:0 12px 25px rgba(0,0,0,0.25);
+    }
+    .kontak-map{
+        border-radius:20px;
+        overflow:hidden;
+        box-shadow:0 20px 40px rgba(15,42,68,0.18);
+    }
+    .kontak-map iframe{
+        width:100%;
+        height:100%;
+        min-height:420px;
+        border:0;
+    }
+    @media(max-width:768px){
+        .kontak-grid{
+            grid-template-columns:1fr;
+        }
+        .kontak-header h2{
+            font-size:18px;
+            line-height:25px;
+        }
+        .kontak-info.navy{
+            padding:30px;
+        }
+        .kontak-map iframe{
+            min-height:300px;
+        }
+    }
+</style>
